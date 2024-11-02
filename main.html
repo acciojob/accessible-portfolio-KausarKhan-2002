@@ -10,33 +10,33 @@
 	<!-- the entire body must be written by student -->
 	 <!-- Main Heading with ARIA role -->
     <header role="banner">
-        <h1>My Accessible Portfolio</h1>
+        <h1 role="main heading">My Accessible Portfolio</h1>
     </header>
 
     <!-- Navigation bar with ARIA role -->
     <nav role="navigation" aria-label="Main Navigation">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <ul role="navbar links">
+            <li role="navbarItem"><a role="navbarLink" href="#about">About</a></li>
+            <li role="navbarItem"><a role="navbarLink" href="#projects">Projects</a></li>
+            <li role="navbarItem"><a role="navbarLink" href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <!-- Main Content with ARIA role -->
     <main role="main">
         <!-- Section with ARIA role -->
-        <section id="about" aria-labelledby="about-heading">
-            <h2 id="about-heading">About Me</h2>
+        <section id="about" role="about me" aria-labelledby="about-heading">
+            <h2 role="subheading" id="about-heading">About Me</h2>
             <!-- Image with alt attribute and ARIA role -->
             <img src="https://media.licdn.com/dms/image/v2/D5635AQGM690grJ8PgQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713712144572?e=1731164400&v=beta&t=BM5EcMDniOC-KajNWNRr1lwJ3nM5HcgVpDrc4Etn-dg"
                 alt="Profile picture of [Your Name]" role="img">
-            <p>Hello! I'm a web developer passionate about creating accessible websites for all users. I specialize in
+            <p role="description">Hello! I'm a web developer passionate about creating accessible websites for all users. I specialize in
                 front-end development and have experience in various web technologies.</p>
         </section>
 
         <!-- Projects Section with ARIA role -->
-        <section id="projects" aria-labelledby="projects-heading">
-            <h2 id="projects-heading">My Projects</h2>
+        <section id="projects" aria-labelledby="projects-heading" role="my projects">
+            <h2 role="subheading" id="projects-heading">My Projects</h2>
             <!-- List with ARIA role -->
             <ul role="list">
                 <li role="listitem">Project 1: A dynamic website for small businesses.</li>
@@ -48,7 +48,7 @@
 
     <!-- Footer with ARIA role -->
     <footer role="contentinfo">
-        <p>&copy; 2024 [Your Name] - All rights reserved.</p>
+        <p role="footer paragraph">&copy; 2024 [Your Name] - All rights reserved.</p>
     </footer>
     <script type="text/javascript" src="./script.js">
 </script>
