@@ -1,2 +1,103 @@
 
 /* Your CSS Code here. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #111;
+}
+
+/* li {
+    list-style: none;
+} */
+
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 5rem;
+    box-shadow: 0px -3px 10px 5px #dcdcdc;
+}
+
+header span {
+    font-size: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+
+#about p {
+    margin-top: .6rem;
+}
+
+#about #desc {
+    width: 700px;
+}
+
+.subHeading {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+#skills {
+    padding: 2rem 5rem;
+}
+
+#skills table {
+    width: 100%;
+}
+
+#skills table tr {
+    padding: 1rem;
+}
+
+#skills table th {
+    border: 1px solid #999;
+    padding: .5rem;
+}
+
+thead {
+    font-size: 1.7rem;
+    background: #e4e4e4;
+}
+
+#projects {
+    padding: 1rem 5rem;
+}
+
+#projects ul {
+    list-style-type: circle;
+}
+
+#projects li {
+    margin-top: .7rem;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #d2d2d2;
+    padding: 1.2rem 0;
+    font-weight: 900;
+    text-align: center;
+}

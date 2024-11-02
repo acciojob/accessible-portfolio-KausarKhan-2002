@@ -8,6 +8,89 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header role="banner">
+        <h1>Accessible <span>portfolio</span></h1>
+
+        <nav role="navigation" aria-label="top navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <section id="about" aria-labelledby="about me">
+            <img src="https://media.licdn.com/dms/image/v2/D5635AQGM690grJ8PgQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713712144572?e=1731153600&v=beta&t=OAhw-JgeZ2wHCtM8x5IljKOCBFYegdVPyYu1geXSTX0"
+                alt="Kausar Khan" />
+            <div role="about desc" id="desc">
+                <h2 class="subHeading">About me</h2>
+                <p> I am passionate about creating robust and user-friendly web applications. Proficient in front-end
+                    technologies like HTML, CSS, JavaScript, and frameworks such as React </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repudiandae, voluptatibus qui minus
+                    quidem deleniti aliquam quo ex vero inventore! Autem blanditiis necessitatibus aut vero obcaecati
+                    sapiente excepturi, sequi quae!</p>
+                <p> I am passionate about creating robust and user-friendly web applications. Proficient in front-end
+                    technologies like HTML, CSS, JavaScript, and frameworks such as React </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repudiandae, voluptatibus qui minus
+                    quidem deleniti aliquam quo ex vero inventore! Autem blanditiis necessitatibus aut vero obcaecati
+                    sapiente excepturi, sequi quae!</p>
+            </div>
+        </section>
+
+        <section id="skills" aria-labelledby="my skills">
+            <h2 class="subHeading">My Skills</h2>
+            <ul role="list" aria-labelledby="my skills">
+                <table role="table" aria-labelledby="About my skills">
+                    <thead>
+                        <tr>
+                            <th>Tech</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                   <tbody>
+                    <tr>
+                        <th>HTML</th>
+                        <th>85%</th>
+                    </tr>
+                    <tr>
+                        <th>CSS</th>
+                        <th>70%</th>
+                    </tr>
+                    <tr>
+                        <th>Javascript</th>
+                        <th>72%</th>
+                    </tr>
+                    <tr>
+                        <th>React</th>
+                        <th>74%</th>
+                    </tr>
+                    <tr>
+                        <th>Bootstrap</th>
+                        <th>85%</th>
+                    </tr>
+                    <tr>
+                        <th>Tailwind</th>
+                        <th>87%</th>
+                    </tr>
+                   </tbody>
+                </table>
+        </section>
+
+        <section id="projects" aria-labelledby="my projects">
+            <h2 class="subHeading">My Projects</h2>
+            <ul role="list" aria-labelledbymy="my projects" type="square">
+                <li>Created a portfolio to showcase my expertise and interest in the world of websites.</li>
+                <li>Amazon clone to know the deep knowledge of internal infastructure.</li>
+                <li>Swiggy clone to inhance my knowledge mapping.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer role="contact-information">
+        <p>&copy 2024 Kausar khan - All rights reserved.</p>
+    </footer>
     <script type="text/javascript" src="./script.js">
 </script>
 
