@@ -9,146 +9,49 @@
     box-sizing: border-box;
 }
 
+/* Basic styling for the portfolio */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Header Styling */
-header {
-    background-color: #4a90e2;
-    color: #fff;
-    padding: 1.5em;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    font-size: 2.5em;
     margin: 0;
+    padding: 0;
 }
 
-/* Navigation Bar Styling */
-nav {
-    background-color: #333;
-    width: 100%;
-    margin: 1.5em 0;
+header {
+    background: #333;
+    color: #fff;
     padding: 1em;
     text-align: center;
-    border-radius: 8px;
+}
+
+nav {
+    background: #444;
+    padding: 1em;
 }
 
 nav ul {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 1em;
+    padding: 0;
+    text-align: center;
 }
 
 nav ul li {
-    margin: 0;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-nav a:hover {
-    background-color: #4a90e2;
-}
-
-/* Main Content Styling */
-main {
-    width: 100%;
-    max-width: 800px;
-    background-color: #fff;
-    padding: 2em;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline;
+    margin: 0 1em;
 }
 
 section {
-    margin-bottom: 2em;
-}
-
-h2 {
-    font-size: 2em;
-    color: #4a90e2;
-    margin-bottom: 0.5em;
-}
-
-p {
-    font-size: 1.1em;
-    margin-bottom: 1.5em;
-    color: #555;
-}
-
-/* Image Styling */
-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 1em;
-    display: block;
-}
-
-/* List Styling */
-ul[role="list"] {
-    padding: 0;
-    list-style-type: none;
-}
-
-ul[role="list"] li {
-    background-color: #e9f2ff;
-    margin-bottom: 0.5em;
-    padding: 0.8em;
-    border-radius: 5px;
-    color: #333;
-    font-weight: 500;
-}
-
-/* Footer Styling */
-footer {
-    width: 100%;
-    max-width: 800px;
+    margin: 2em;
     text-align: center;
-    margin-top: 2em;
-    padding: 1em;
-    background-color: #4a90e2;
+}
+
+footer {
+    background: #333;
     color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9em;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-        gap: 0.5em;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.8em;
-    }
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
